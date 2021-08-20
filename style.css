@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(147.29deg, #4fc6fc -38.17%, #ac80f4 91.05%);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+.parent {
+  background-color: #fff;
+  display: flex;
+  padding: 3%;
+  border-radius: 30px;
+}
+.image {
+  margin-right: 5rem;
+}
+.img{
+    width: 34rem;
+}
+input {
+  background: #eaf4ff;
+  border-radius: 6.9px;
+  height: 40px;
+  border: none;
+  width: 458px;
+  outline: none;
+}
+.btn {
+  margin: 1rem;
+  height: 49.18px;
+  width: 189.1px;
+  border-radius: 6.99px;
+  border: none;
+  background-color: #0075ff;
+  color: #fff;
+  font-size: 1rem;
+  margin-left: 30%;
+}
+
+label {
+  margin: 0.5rem 0;
+}
+.social {
+  display: flex;
+}
+.social h6 {
+  color: rgba(82, 82, 82, 0.8);
+  font-weight: 300;
+}
+hr {
+  height: 1px;
+  width: 37%;
+  margin: 7px;
+  border-top: 0.7 px#525252;
+}
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    width: 5%;
+}
+
+.social-icons img{
+    margin: 0 0.5rem;
+}
+
+.footer{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.footer a{
+    text-decoration: none;
+    color: #000;
+}
+
+.eye{
+  position: relative;
+  right: 30px;
+}
+
+
+@media (max-width:1024px) and (min-width:200px) {
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .image{
+        display: none;
+    }
+    body{
+      display: flex;
+      justify-content: center;
+    }
+    .image{
+        display: none;
+    }
+    .container{
+      width:335px;
+      height:429px;
+      padding: 3%
+    }
+    input{
+      height:26px;
+      width: 236.69px;
+    }
+    label{
+      font-size: 9.04px;
+    }
+    .form h1{
+      font-size:15.5px
+    }
+    hr{
+      width: 26%; 
+    }
+    .footer{
+      font-size:9.03533px;
+      justify-content: center
+    }
+    .btn{
+      height: 25.41309356689453px;
+      width: 88.09087371826172px;
+      border-radius: 3.6141340732574463px;
+      font-size:10.34px;
+      margin-left: 32%;
+    }
+ }
